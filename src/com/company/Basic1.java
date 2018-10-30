@@ -1,3 +1,5 @@
+package com.company;
+
 import java.util.Scanner;
 
 public class Basic1 {
@@ -8,8 +10,16 @@ public class Basic1 {
         Scanner teclado = new Scanner(System.in);
         int año = teclado.nextInt();
         //Comprueba si es bisiesto.
-        if(año%4 == 0){
-            System.out.println("Es bisiesto.");
+        if(año%4 == 0 ){
+            if(año%100 ==0){
+               if(año%400==0){
+                   System.out.println("Es bisiesto.");
+               } else {
+                   System.out.println("No es bisiesto.");
+               }
+            } else {
+                System.out.println("Es bisiesto");
+            }
         }else{
             System.out.println("No es bisiesto.");
         }
