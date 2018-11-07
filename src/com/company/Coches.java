@@ -10,10 +10,10 @@ public class Coches {
         int total = 0;
         int gap = 1;
 
-        while(gap != 0){
-            gap = teclado.nextInt();
-            total+=gap;
-        }
-        System.out.println(total);
+            while(gap != 0){
+                gap = teclado.nextInt();
+                total+=gap;
+            }
+            System.out.println(total);
     }
 }
