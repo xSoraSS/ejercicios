@@ -16,7 +16,7 @@ public class Coches {
         //entra en for hasta que i sea menor a la longitud del array y pide los tiempos entre los coches
         //suma todos los valores del array
         for (int i = 0; i < gap.length; i++) {
-            System.out.println("Introduce tiempos entre los coches " + i);
+            System.out.println("Introduce los tiempos entre los coches " + i);
             gap[i] = teclado.nextInt();
             total+=gap[i];
         }
